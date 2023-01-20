@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>バイオハザードヴィレッジ</title>
+  <link rel="stylesheet" href="../resident-evil/resident.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+
+  <script type="text/javascript"> //メニューバー関数(javaScript)
+    $(function(){
+       // マウスが載ったらサブメニューを表示
+       $("ul.dropdownMenu li").mouseenter(function(){
+          $(this).siblings().find("ul").hide();  // 兄弟要素に含まれるサブメニューを全部消す。
+          $(this).children().slideDown(150);     // 自分のサブメニューを表示する。
+       });
+       // どこかがクリックされたらサブメニューを消す
+       $('html').click(function() {
+          $('ul.dropdownMenu ul').slideUp(150);
+       });
+    });
+ </script>
+
+ <header class="header">
+  <div class="fourtyPx_text" id="id_home">
+    RESIDENT <span class="font_red">EVIL</span> VILLAGE
+  </div>
+</header>
+
+</head>
+
+<body>
+  <ul class="dropdownMenu">
+    <li><a href="#">MENU</a>
+      <ul>
+        <li><a href="#id_home">HOME</a></li>
+        <li><a href="#id_story">STORY</a></li>
+      </ul>
+      <ul>
+        <li><a href="#id_character">CHARACTERS</a>
+          <ul>
+            <li><a href="#id_ethan">Ehtan・Winters</a></li>
+            <li><a href="#id_mia">Mia・Winters</a></li>
+            <li><a href="#id_chris">Chris・Redfield</a></li>
+            <li><a href="#id_duke">The Duke</a></li>
+            <li><a href="#id_dimitrescu">Dimitrescu</a></li>
+          </ul>
+        </li>
+      </ul>
+  </ul>
+
+<div class="cd-fixed-bg cd-bg-1" id="id_story">
+  <div class="senter">
+    <p1>
+      ストーリー<br>
+      <p>あのおぞましい「ベーカー家事件」から<span class="font_bldred">3年後...</span><br>
+      主人公の「イーサン・ウィンターズ」は妻の「ミア」、授かった娘「ローズ」と共に<br>
+      平穏な日々を送っていた。しかし、そこに突如として現れた謎の部隊...<br>
+      さらには、妻の「ミア」を目の前で射殺し、娘までも連れ去られてしまった。<br>
+      果たして「イーサン」は連れ去られた娘を無事取り戻すことができるのか...<br>
+      <br>
+      <p5>画像出典元様:https://img-cahoots.blogspot.com/2021/04/heisenberg-resident-evil-wiki.html </p5>
+      <blockquote cite="https://img-cahoots.blogspot.com/2021/04/heisenberg-resident-evil-wiki.html"></blockquote>
+      </p>
+    </p1>
+  </div>
+</div>
+
+<div class="cd-fixed-bg cd-bg-2" id="id_character">
+  <p1>
+    キャラクター<br>
+    <p2>イーサン・ウィンターズ<br>
+        ミア・ウィンターズ<br>
+        クリス・レッドフィールド<br>
+        デューク<br>
+        ドミトレスク<br>
+        <br>
+        <p5>画像出典元様:https://img-cahoots.blogspot.com/2021/04/heisenberg-resident-evil-wiki.html </p5>
+        <blockquote cite="https://img-cahoots.blogspot.com/2021/04/heisenberg-resident-evil-wiki.html"></blockquote>
+      </p2>
+  </p1>
+
+</div>
+
+<div class="cd-fixed-bg cd-bg-3" id="id_ethan">
+  <p3>Ehtan・Winters<br>
+      (イーサン・ウィンターズ)<br>
+      <p6>
+        このゲームの主人公となる人物。<br>
+        「ベーカー家事件」以降は妻の「ミア」と娘の「ローズ」とともに平穏な日々を過ごしていた。<br>
+        しかし、そんな安息の日々は突然として奪われてしまい、<br>
+        連れ去られた娘の「ローズ」を救うため、またもや過酷な運命を辿る。<br>
+        <br>
+        <p5>画像出典元様:https://anooblog.com/info365/?p=274451</p5>
+        <blockquote cite="https://anooblog.com/info365/wp-content/uploads/2021/05/d0c79c17da0da3162c34777d0cc794e1-thumbnail2.png"></blockquote>
+      </p6>
+    </p3>
+</div>
+<div class="cd-fixed-bg cd-bg-4" id="id_mia">
+  <p3>Mia・Winters<br>
+    (ミア・ウィンターズ)<br>
+    <p6>
+      主人公の「イーサン」の妻。<br>
+      彼女は「ベーカー家事件」の被害者の1人でもある。<br>
+      <br>
+      <p5>画像出典元様:https://news.denfaminicogamer.jp/kikakuthetower/210506a</p5>
+      <blockquote cite="https://img-denfaminicogamer.com/wp-content/uploads/2021/05/image20.jpg"></blockquote>
+    </p6>
+  </p3>
+</div>
+<div class="cd-fixed-bg cd-bg-5" id="id_chris">
+  <p4>Chris・Redfield<br>
+    (クリス・レッドフィールド)<br>
+    <p6>
+      彼は歴代のバイオハザードシリーズから登場する代表キャラである。<br>
+      元特殊部隊S.T.A.R.S.の隊員であり、数々のバイオテロ事件から生き延びた。<br>
+      <br>
+      <p5>画像出典元様:https://news.denfaminicogamer.jp/kikakuthetower/210506a</p5>
+      <blockquote cite="https://img-denfaminicogamer.com/wp-content/uploads/2021/05/image2-18.jpg"></blockquote>
+
+    </p6>
+  </p4>
+</div>
+<div class="cd-fixed-bg cd-bg-6" id="id_duke">
+  <p3>The Duke<br>
+    (デューク)<br>
+    <p6>
+      彼は今作で商人にあたる人物。<br>
+      色々な役立つアイテムを売ってくれる<br>
+      なぜか「イーサン」についての情報を知っている...<br>
+      <br>
+      <p5>画像出典元様:https://gametokka.com/baiohazardvillagedukemay29/</p5>
+      <blockquote cite="https://gametokka.com/wp-content/uploads/2021/05/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2021-05-24-8.34.18.png"></blockquote>
+    </p6>
+  </p3>
+</div>
+<div class="cd-fixed-bg cd-bg-7" id="id_dimitrescu">
+  <p4>Dimitrescu<br>
+    (ドミトレスク夫人)<br>
+    <p6>
+      今作の敵キャラの1人。<br>
+      彼女は村の中の城の主であり、「ミランダ」に仕える四貴族の1人でもある。<br>
+      290㎝ある超高身長の威圧感がとてつもない。<br>
+    </p6>
+    <br>
+    <p5>画像出典元様:https://news.denfaminicogamer.jp/kikakuthetower/210506a</p5>
+    <blockquote cite="https://matilda9820.up.seesaa.net/image/ae93a78ddc4785702cb773b8a5e82c94-thumbnail2.png"></blockquote>
+    <br>
+    <p5>*当サイトの著作物及び引用画像の著作権は全て引用元、著作物の製作者様に帰属いたします。</p5>
+  </p4>
+</div>
+
+</body>
+
+</html>
